@@ -34,6 +34,9 @@ def novidades_breve():
     except ValueError as e:
         print(f"Erro capturado: {e}")
 
+def msg_fim():
+    messagebox.showinfo("Ufa! 😅 Acabou! ", "Em breve vou te substituir. 😂🎉")
+
 def copiar_wpp():
     py.click(x, y, button="right")
     for _ in range(3):
@@ -50,7 +53,7 @@ def abrir_paint():
     py.hotkey("win", "d")
     time.sleep(1)
     os.system("start mspaint")
-    time.sleep(0.5)
+    time.sleep(2)
 
 def colar_img():
     py.click(x, y) 
@@ -114,7 +117,7 @@ def salvando_imgs_wpp(quantidade_valor):
         salvar_img(count)
         proxima_imagem()
         count += 1
-    print("processo concluído")
+    msg_fim()
 
 def executar_tarefa():
     global quantidade
