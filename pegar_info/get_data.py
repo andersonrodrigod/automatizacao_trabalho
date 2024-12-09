@@ -18,50 +18,68 @@ def cod_proc():
 def name_proc():
     return pyperclip.paste()
 
+def medico_requesting():
+    return pyperclip.paste()
+
 def info_assistent():
     return pyperclip.paste()
 
 def info_medico():
     return pyperclip.paste()
 
-def medico_requesting():
-    return pyperclip.paste()
 
-def copy_input():
-    py.hotkey("ctrl", "a")
+
+def copy_tab():
     time.sleep(0.5)
     py.hotkey("ctrl", "c")
     time.sleep(0.5)
-    py.hotkey("ctrl", "tab")
+    py.press("tab")
 
-time.sleep(3)
+def copy_click(x, y):
+    py.click(x, y)
+    time.sleep(0.5)
+    py.hotkey("ctrl", "c")
 
 def save_data():
-    copy_input()
+    copy_tab()
     codigo = cod()
-    copy_input()
+    copy_tab()
     nome = name()
-    copy_input()
+    for _ in range(3):
+        time.sleep(0.2)
+        py.press("tab")
+    copy_tab()
     codigo_procedimento = cod_proc()
-    copy_input()
+    copy_tab()
     nome_procedimento = name_proc()
-    copy_input()
+    copy_click("click no medico solicitante")
+    medico_solicitante = medico_requesting()
+    copy_click("click na informação do solicitante")
     info_assistente = info_assistent()
-    copy_input()
-    infor_medico = info_medico()
+    copy_click("click na informação medica")
+    info_medic = info_medico()
+    py.click("click na cordenada do codigo")
+    py.press("down")
 
     dados = {
+        "id": id_count,
         "codigo": codigo,
         "nome": nome,
         "codigo_procedimento": codigo_procedimento,
         "nome_procedimento": nome_procedimento,
         "info_assistente": info_assistente,
-        "info_medico": infor_medico
+        "info_medico": info_medic,
+        "medico_solicitante": medico_solicitante
     }
 
     return dados
 
-dados = save_data()
+dados_coletados = []
+id_count = 1
+for _ in range(3):
+    dados = save_data()
+    dados_coletados.append(dados)
+    id_count += 1
 
 if os.path.exists("dados_coletados.json"):
     with open("dados_coletados.json", "r") as f:
@@ -69,7 +87,7 @@ if os.path.exists("dados_coletados.json"):
 else:
     dados_existentes = []
 
-dados_existentes.append(dados)
+dados_existentes.extend(dados_coletados)
 
 with open("dados_coletados.json", "w", encoding="utf-8") as f:
     json.dump(dados_existentes, f, indent=4, ensure_ascii=False)
