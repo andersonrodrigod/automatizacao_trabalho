@@ -1,5 +1,4 @@
 import pyperclip
-import pandas as pd
 import os
 import pyautogui as py
 import time
@@ -52,13 +51,15 @@ def save_data():
     codigo_procedimento = cod_proc()
     copy_tab()
     nome_procedimento = name_proc()
-    copy_click("click no medico solicitante")
+    py.press("tab")
+    copy_tab()
     medico_solicitante = medico_requesting()
-    copy_click("click na informação do solicitante")
+    copy_tab()
+    copy_click(251, 278)
     info_assistente = info_assistent()
-    copy_click("click na informação medica")
+    copy_click(307,418)
     info_medic = info_medico()
-    py.click("click na cordenada do codigo")
+    py.click(139,113)
     py.press("down")
 
     dados = {
@@ -75,17 +76,26 @@ def save_data():
     return dados
 
 dados_coletados = []
-id_count = 1
-for _ in range(3):
+
+
+if os.path.exists("dados_coletados.json"):
+    with open("dados_coletados.json", "r", encoding="utf-8") as f:
+        dados_existentes = json.load(f)
+        max_id = 0
+        if dados_existentes:
+            for item in dados_existentes:
+                if item["id"] > max_id:
+                    max_id = item["id"]
+else:
+    dados_existentes = []
+    max_id = 0
+
+id_count = max_id + 1
+for _ in range(36):
+    time.sleep(1.5)
     dados = save_data()
     dados_coletados.append(dados)
     id_count += 1
-
-if os.path.exists("dados_coletados.json"):
-    with open("dados_coletados.json", "r") as f:
-        dados_existentes = json.load(f)
-else:
-    dados_existentes = []
 
 dados_existentes.extend(dados_coletados)
 
