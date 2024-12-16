@@ -1,0 +1,362 @@
+[
+    {
+        "id": 1,
+        "codigo": "0FXN9000003026",
+        "nome": "GLENDA CRISTINA VICENTE",
+        "codigo_procedimento": "41001230",
+        "nome_procedimento": "TC ANGIOTOMOGRAFIA CORONARIANA",
+        "info_assistente": "GUIA SN - // CIENTE DO ENVIO DA GUIA - GUIA JA ANEXADA(LS63837: 10/12/2024 12:19:49)",
+        "info_medico": "10/12-CONFIRMAR O ENDEREÇO+ANEXAR TESTE ERGOMETRICO+CINTILOGRAFIA DO MIOCARDIO COM STRESS+ECOCARDIOGRAMA COM STRESS+RNM CARDÍACA+CATETERISMO CARDÍACP-GM",
+        "medico_solicitante": "MEDICO TRANSCRICAO NDI MINAS AL"
+    },
+    {
+        "id": 2,
+        "codigo": "0FXN9000003026",
+        "nome": "GLENDA CRISTINA VICENTE",
+        "codigo_procedimento": "41001230",
+        "nome_procedimento": "TC ANGIOTOMOGRAFIA CORONARIANA",
+        "info_assistente": "REBECCA OLIVEIRA BEZERRA",
+        "info_medico": "10/12 - ANEXAR RM CARDIACA, CINTILO MIOCARDIO, TESTE ERGOMETRICO, ECO COM ESTRESSE FARMACOLOGICO E CATETERISMO. ITM",
+        "medico_solicitante": "MEDICO TRANSCRICAO NDI MINAS"
+    },
+    {
+        "id": 3,
+        "codigo": "0GC98000949000",
+        "nome": "MARCOS FERREIRA SUCUPIRA",
+        "codigo_procedimento": "34010211",
+        "nome_procedimento": "ANGIOTOMOGRAFIA CORONARIANA",
+        "info_assistente": "REDE NDI ** PROCEDIMENTO ANGIOTOMOGRAFIA DAS ARTERIAS CORONARIAS ** -",
+        "info_medico": "10/12 - TROCAR PARA 34010211 + ANEXAR RM CARDIACA, CINTILO MIOCARDIO, TESTE ERGOMETRICO, CATETERISMO, ECO COM ESTRESSE FARMACOLOGICO. ITM",
+        "medico_solicitante": "MARCO ANTONIO VIEIRA DA SILVA"
+    },
+    {
+        "id": 4,
+        "codigo": "0GVU0000012009",
+        "nome": "JANAINA LEITE",
+        "codigo_procedimento": "30101190",
+        "nome_procedimento": "CORRECAO DE LIPODISTROFIA BRAQUIAL, CRURAL OU TROCANTERIANA DE MEMBROS SUPERIORES E INFERIORES",
+        "info_assistente": "AUT ON  - 34852020241205405136",
+        "info_medico": "10/12 - ANEXAR FOTO DO ABDOME (EVIDENCIANDO A CICATRIZ QUE DESEJA CORRIGIR). ITM",
+        "medico_solicitante": "JULIANO BARON ALMEIDA"
+    },
+    {
+        "id": 5,
+        "codigo": "0GVU0000012009",
+        "nome": "JANAINA LEITE",
+        "codigo_procedimento": "30602262",
+        "nome_procedimento": "RECONSTRUCAO DA MAMA COM PROTESE E/OU EXPANSOR",
+        "info_assistente": "AUT ON  - 34852020241205405136",
+        "info_medico": "10/12 - ANEXAR FOTO DO ABDOME (EVIDENCIANDO A CICATRIZ QUE DESEJA CORRIGIR). ITM",
+        "medico_solicitante": "JULIANO BARON ALMEIDA"
+    },
+    {
+        "id": 6,
+        "codigo": "0GVU0000012009",
+        "nome": "JANAINA LEITE",
+        "codigo_procedimento": "30601169",
+        "nome_procedimento": "TORACOPLASTIA (QUALQUER TECNICA)",
+        "info_assistente": "AUT ON  - 34852020241205405136",
+        "info_medico": "10/12 - ANEXAR FOTO DO ABDOME (EVIDENCIANDO A CICATRIZ QUE DESEJA CORRIGIR). ITM",
+        "medico_solicitante": "JULIANO BARON ALMEIDA"
+    },
+    {
+        "id": 7,
+        "codigo": "0HRR5000002003",
+        "nome": "LIVIA JANAINA GOMES",
+        "codigo_procedimento": "30101972",
+        "nome_procedimento": "ABDOMINOPLASTIA POS BARIATRICA",
+        "info_assistente": "GUIA:NP//TELEF:34998858289 - 34852020241210525670 -",
+        "info_medico": "10/12 - TROCAR PARA 30101972 + ANEXAR FOTOS DO ABDOME DE FRENTE E DE PERFIL. ITM",
+        "medico_solicitante": "IVAN ORLANDO GONZALES MEGO\t\t\t\t\t\t\t\t\t"
+    },
+    {
+        "id": 8,
+        "codigo": "0GVU0000012009",
+        "nome": "JANAINA LEITE",
+        "codigo_procedimento": "01990047",
+        "nome_procedimento": "PROCEDIMENTO A DEFINIR ADMINISTRATIVAMENTE",
+        "info_assistente": "AUT ON  - 34852020241205405136",
+        "info_medico": "10/12 - ANEXAR FOTO DO ABDOME (EVIDENCIANDO A CICATRIZ QUE DESEJA CORRIGIR). ITM",
+        "medico_solicitante": "JULIANO BARON ALMEIDA"
+    },
+    {
+        "id": 9,
+        "codigo": "0GVU0000012009",
+        "nome": "JANAINA LEITE",
+        "codigo_procedimento": "01990047",
+        "nome_procedimento": "PROCEDIMENTO A DEFINIR ADMINISTRATIVAMENTE",
+        "info_assistente": "AUT ON  - 34852020241205405136",
+        "info_medico": "10/12 - ANEXAR FOTO DO ABDOME (EVIDENCIANDO A CICATRIZ QUE DESEJA CORRIGIR). ITM",
+        "medico_solicitante": "JULIANO BARON ALMEIDA"
+    },
+    {
+        "id": 10,
+        "codigo": "0GVU0000012009",
+        "nome": "JANAINA LEITE",
+        "codigo_procedimento": "01990047",
+        "nome_procedimento": "PROCEDIMENTO A DEFINIR ADMINISTRATIVAMENTE",
+        "info_assistente": "AUT ON  - 34852020241205405136",
+        "info_medico": "10/12 - ANEXAR FOTO DO ABDOME (EVIDENCIANDO A CICATRIZ QUE DESEJA CORRIGIR). ITM",
+        "medico_solicitante": "JULIANO BARON ALMEIDA"
+    },
+    {
+        "id": 11,
+        "codigo": "0JMMI000023019",
+        "nome": "SUELY MARIA DE OLIVEIRA AGUIAR",
+        "codigo_procedimento": "30715059",
+        "nome_procedimento": "CIRURGIA DE COLUNA POR VIA ENDOSCOPICA",
+        "info_assistente": "PROTOCOLO 34852020241206035896",
+        "info_medico": "10/12 - POSSUI LISTA DE MATERIAL?? SOLICITAR CARTA DE HONORARIOS MEDICOS + ELETRONEUROMIOGRAFIA + APLICAR QUESTIONARIO DE COLUNA + APOS, SOLICITAR PARECER PARA ORTOPEDISTA DE COLUNA E NEUROCIRURGIA. ITM",
+        "medico_solicitante": "MEDICO TRANSCRICAO NDI MINAS"
+    },
+    {
+        "id": 12,
+        "codigo": "0GVU0000012009",
+        "nome": "JANAINA LEITE",
+        "codigo_procedimento": "01990047",
+        "nome_procedimento": "PROCEDIMENTO A DEFINIR ADMINISTRATIVAMENTE",
+        "info_assistente": "AUT ON  - 34852020241205405136",
+        "info_medico": "10/12 - ANEXAR FOTO DO ABDOME (EVIDENCIANDO A CICATRIZ QUE DESEJA CORRIGIR). ITM",
+        "medico_solicitante": "JULIANO BARON ALMEIDA"
+    },
+    {
+        "id": 13,
+        "codigo": "0GVU0000012009",
+        "nome": "JANAINA LEITE",
+        "codigo_procedimento": "01990047",
+        "nome_procedimento": "PROCEDIMENTO A DEFINIR ADMINISTRATIVAMENTE",
+        "info_assistente": "AUT ON  - 34852020241205405136",
+        "info_medico": "10/12 - ANEXAR FOTO DO ABDOME (EVIDENCIANDO A CICATRIZ QUE DESEJA CORRIGIR). ITM",
+        "medico_solicitante": "JULIANO BARON ALMEIDA"
+    },
+    {
+        "id": 14,
+        "codigo": "0GVU0000012009",
+        "nome": "JANAINA LEITE",
+        "codigo_procedimento": "01990047",
+        "nome_procedimento": "PROCEDIMENTO A DEFINIR ADMINISTRATIVAMENTE",
+        "info_assistente": "AUT ON  - 34852020241205405136",
+        "info_medico": "10/12 - ANEXAR FOTO DO ABDOME (EVIDENCIANDO A CICATRIZ QUE DESEJA CORRIGIR). ITM",
+        "medico_solicitante": "JULIANO BARON ALMEIDA"
+    },
+    {
+        "id": 15,
+        "codigo": "0GVU0000012009",
+        "nome": "JANAINA LEITE",
+        "codigo_procedimento": "54140056",
+        "nome_procedimento": "PLASTICA MAMARIA FEMININA NAO ESTETICA",
+        "info_assistente": "AUT ON  - 34852020241205405136",
+        "info_medico": "10/12 - ANEXAR FOTO DO ABDOME (EVIDENCIANDO A CICATRIZ QUE DESEJA CORRIGIR). ITM",
+        "medico_solicitante": "JULIANO BARON ALMEIDA"
+    },
+    {
+        "id": 16,
+        "codigo": "0IQE7000035033",
+        "nome": "ROSELUCIA APARECIDA BORGES GERALDO",
+        "codigo_procedimento": "30724058",
+        "nome_procedimento": "ARTROPLASTIA (QUALQUER TECNICA OU VERSAO DE QUADRIL) - TRATAMENTO CIRURGICO",
+        "info_assistente": "GUIA N 162104812 // COXARTROSE E PROTRUSÃO ACETABULAR DIREITA // BNF NÃO ESTAVA COM O LAUDO DO RAIO X POREM O MESMO FOI REALIZADO NA NOSSA REDE PROPRIA, FAVOR VERIFICAR // SOLICITAÇÃO DE OPME EM GUIA - PARECER SOLICITADO **BRUNA 10.12.24**\r\n",
+        "info_medico": "10/12 - SOLICITAR PARECER AO ORTOPEDISTA COM TEXTO EM GRUPO. ITM",
+        "medico_solicitante": "LORENA SOUZA VILELA"
+    },
+    {
+        "id": 17,
+        "codigo": "0IQE7000035033",
+        "nome": "ROSELUCIA APARECIDA BORGES GERALDO",
+        "codigo_procedimento": "30724236",
+        "nome_procedimento": "OSTEOTOMIAS  AO  NIVEL  DO  COLO OU  REGIAO TROCANTERIANA (SUGIOKA, MARTIN, BOMBELLI ETC) - TRATAMENTO CIRURGICO",
+        "info_assistente": "GUIA N 162104812 // COXARTROSE E PROTRUSÃO ACETABULAR DIREITA // BNF NÃO ESTAVA COM O LAUDO DO RAIO X POREM O MESMO FOI REALIZADO NA NOSSA REDE PROPRIA, FAVOR VERIFICAR // SOLICITAÇÃO DE OPME EM GUIA",
+        "info_medico": "10/12 - SOLICITAR PARECER AO ORTOPEDISTA COM TEXTO EM GRUPO. ITM",
+        "medico_solicitante": "LORENA SOUZA VILELA"
+    },
+    {
+        "id": 18,
+        "codigo": "0IQE7000035033",
+        "nome": "ROSELUCIA APARECIDA BORGES GERALDO",
+        "codigo_procedimento": "30732026",
+        "nome_procedimento": "ENXERTO OSSEO",
+        "info_assistente": "GUIA N 162104812 // COXARTROSE E PROTRUSÃO ACETABULAR DIREITA // BNF NÃO ESTAVA COM O LAUDO DO RAIO X POREM O MESMO FOI REALIZADO NA NOSSA REDE PROPRIA, FAVOR VERIFICAR // SOLICITAÇÃO DE OPME EM GUIA",
+        "info_medico": "10/12 - SOLICITAR PARECER AO ORTOPEDISTA COM TEXTO EM GRUPO. ITM",
+        "medico_solicitante": "LORENA SOUZA VILELA"
+    },
+    {
+        "id": 19,
+        "codigo": "0GVUP000004022",
+        "nome": "MARIELLE PEIXOTO DE OLIVEIRA",
+        "codigo_procedimento": "30101271",
+        "nome_procedimento": "DERMOLIPECTOMIA PARA CORRECAO DE ABDOME EM AVENTAL",
+        "info_assistente": "GUIA:162115284/TELEF:34998394355 - 34852020241210812911",
+        "info_medico": "10/12 - ANEXAR FOTOS DO ABDOME DO PACIENTE DE FRENTE E DE PERFIL. ITM",
+        "medico_solicitante": "IVAN ORLANDO GONZALES MEGO\t\t\t\t\t\t\t\t\t"
+    },
+    {
+        "id": 20,
+        "codigo": "0FXKA000019003",
+        "nome": "CELMO DA SILVA VIEIRA",
+        "codigo_procedimento": "30729190",
+        "nome_procedimento": "OSTEOTOMIA OU PSEUDARTROSE DO TARSO E MEDIO PE - TRATAMENTO CIRURGICO",
+        "info_assistente": "GUIA N. 50200058889 / RELATORIO EM ANEXO / PRESTADOR E MEDICO PROPRIO / GUIA E RESULTADO DE EXAME EM ANEXO - SOLICITAÇÃO DE OPME EM GUIA",
+        "info_medico": "10/12 - SOLICITAR AO PARECER DO ORTOPEDISTA COM TEXTO EM GRUPO. ITM",
+        "medico_solicitante": "MURILO DE LIMA ZANONI"
+    },
+    {
+        "id": 21,
+        "codigo": "0FXKA000019003",
+        "nome": "CELMO DA SILVA VIEIRA",
+        "codigo_procedimento": "30729041",
+        "nome_procedimento": "ARTRODESE DE TARSO E/OU MEDIO PE - TRATAMENTO CIRURGICO",
+        "info_assistente": "GUIA N. 50200058889 / RELATORIO EM ANEXO / PRESTADOR E MEDICO PROPRIO / GUIA E RESULTADO DE EXAME EM ANEXO - SOLICITAÇÃO DE OPME EM GUIA",
+        "info_medico": "10/12 - SOLICITAR AO PARECER DO ORTOPEDISTA COM TEXTO EM GRUPO. ITM",
+        "medico_solicitante": "MURILO DE LIMA ZANONI"
+    },
+    {
+        "id": 22,
+        "codigo": "0HMEY000001015",
+        "nome": "PATRICIA MARIA FARIAS",
+        "codigo_procedimento": "30403030",
+        "nome_procedimento": "ESTAPEDECTOMIA OU ESTAPEDOTOMIA",
+        "info_assistente": "AUT ON  - 34852020241206942591 - OBS  > UMA OBSERVAÇÃO QUE A MEDICA PEDIU PARA COLOCAR FOI PARA AUTORIZAREM A PRÓTESE E NAO SOMENTE A CIRURGIA",
+        "info_medico": "10/12 - ANEXAR AUDIOMETRIA, IMPEDANCIOMETRIA E RM MASTOIDE (COM IMAGENS), SE POSSUIR. APOS, SOLICITAR PARECER PARA OTORRINO (NAO ANEXAR). ITM",
+        "medico_solicitante": "LAURA ISONI AUAD"
+    },
+    {
+        "id": 23,
+        "codigo": "0GPZM000012009",
+        "nome": "JOAO SANTOS MOURA",
+        "codigo_procedimento": "40811026",
+        "nome_procedimento": "RADIOSCOPIA PARA ACOMPANHAMENTO DE PROCEDIMENTO CIRURGICO (POR HORA OU FRACAO)",
+        "info_assistente": "AUT ON  - 34852020241205018332 - - PARECER SOLICITADO **BRUNA 10.12.24**",
+        "info_medico": "10/12: SOLICITADO PARECER AOS ORTOPEDISTAS VIA PLATAFORMA, ACOMPANHAR (NÃO ANEXAR). LESALES.",
+        "medico_solicitante": "CARLOS EDUARDO ALVES ESCOBAR"
+    },
+    {
+        "id": 24,
+        "codigo": "0GPZM000012009",
+        "nome": "JOAO SANTOS MOURA",
+        "codigo_procedimento": "30713145",
+        "nome_procedimento": "PUNCAO EXTRA-ARTICULAR DIAGNOSTICA OU TERAPEUTICA (INFILTRACAO/AGULHAMENTO SECO). QUANDO ORIENTADA POR RX, US, TC E RM, COBRAR CODIGO CORRESPONDENTE",
+        "info_assistente": "AUT ON  - 34852020241205018332 -  -",
+        "info_medico": "10/12: SOLICITADO PARECER AOS ORTOPEDISTAS VIA PLATAFORMA, ACOMPANHAR (NÃO ANEXAR). LESALES.",
+        "medico_solicitante": "CARLOS EDUARDO ALVES ESCOBAR"
+    },
+    {
+        "id": 25,
+        "codigo": "0GPZM000012009",
+        "nome": "JOAO SANTOS MOURA",
+        "codigo_procedimento": "31602177",
+        "nome_procedimento": "BLOQUEIO SIMPATICO POR VIA VENOSA",
+        "info_assistente": "AUT ON  - 34852020241205018332 - -",
+        "info_medico": "10/12: SOLICITADO PARECER AOS ORTOPEDISTAS VIA PLATAFORMA, ACOMPANHAR (NÃO ANEXAR). LESALES.",
+        "medico_solicitante": "CARLOS EDUARDO ALVES ESCOBAR"
+    },
+    {
+        "id": 26,
+        "codigo": "3010R014859009",
+        "nome": "JEFERSON JOAO BATISTA FARIA",
+        "codigo_procedimento": "30913144",
+        "nome_procedimento": "CONFECCAO DE FISTULA AV PARA HEMODIALISE",
+        "info_assistente": "GUIA EM ANEXO // PRESENCIAL  //  CIENTE DO PRAZO DE ATE 10 DIAS UTEIS PARA A LIBERAÇÃO. CIENTE DE ACOMPANHAR PELOS TELEFONES: 40201899 OU 03007893650. WC3616\r\n\r\n**************BENEF INFORMA QUE A CIRUGIA SERA NO LIFECENTER *****************",
+        "info_medico": "10/12-ANEXAR O CONTRATO DE ADESÃO AO PLANO-GM",
+        "medico_solicitante": "SERGIO CAPORALI DE OLIVEIRA"
+    },
+    {
+        "id": 27,
+        "codigo": "0IUCN000003000",
+        "nome": "ROBSON ALVES DA SILVA",
+        "codigo_procedimento": "50070207",
+        "nome_procedimento": "TRATAMENTO OCULAR QUIMIOTERAPICO COM ANTIANGIOGENICO. PROGRAMA DE 24 MESES. UMA SESSAO POR MES (POR SESSAO)",
+        "info_assistente": "BENEFICIARIO EM LF, SOLICITA REALIZAR PROCEDIMENTO , ANEXO EXAME E PEDIDO MÉDICO -- TH4663 - PARECER SOLICITADO **BRUNA 10.12.24**\r\n",
+        "info_medico": "10/12-PARECER DA OFTALMO-NÃO ANEXAR O PARECER-GM",
+        "medico_solicitante": "MARIA CAROLINA ARRUDA VIEIRA BARREIRA"
+    },
+    {
+        "id": 28,
+        "codigo": "3010R004199006",
+        "nome": "ELIANA DE CASSIA ROSA",
+        "codigo_procedimento": "01990047",
+        "nome_procedimento": "PROCEDIMENTO A DEFINIR ADMINISTRATIVAMENTE",
+        "info_assistente": "GUIA EM ANEXO // PRESENCIAL  //  CIENTE DO PRAZO DE ATE 10 DIAS UTEIS PARA A LIBERAÇÃO. CIENTE DE ACOMPANHAR PELOS TELEFONES: 40201899 OU 03007893650. OP:MS6603",
+        "info_medico": "10/12-VERIFICAR JUNTO À BF SE ELA POSSUI PEDIDO MÉDICO DE PROCEDIMENTO PARA TRATAMENTO DA LESÃO EM PERNA OU APENAS ESTE DOCUMENTOM +ANEXAR FOTO DA LESÃO ATUAL-GM",
+        "medico_solicitante": "MEDICO TRANSCRICAO NDI MINAS"
+    },
+    {
+        "id": 29,
+        "codigo": "0IU3A000022012",
+        "nome": "CLAUDIO SERGIO QUINTEIRO",
+        "codigo_procedimento": "41001230",
+        "nome_procedimento": "TC ANGIOTOMOGRAFIA CORONARIANA",
+        "info_assistente": "BENEFICIARIO EM LF, NECESSITA DE PROCEDIMENTO EM REDE CREDENCIADA, CIENTE PRAZO DE PROTOCOLO - JAILSON",
+        "info_medico": "10/12-CONFIRMAR ENDEREÇO+ANEXAR TESTE ERGOMÉTRICO+CATETERISMOM CARDÍACO+RNM CARDÍACA+ECOCARDIOGRAMA COM STRESS+CINTILOGRAFIA DO MIOCARDIO COM STRESS-GM",
+        "medico_solicitante": "RODOLFO NICHALAS SAMKER NASCIMENTO"
+    },
+    {
+        "id": 30,
+        "codigo": "0ITEI000010006",
+        "nome": "MANOEL LIMA DE ALMEIDA",
+        "codigo_procedimento": "30310172",
+        "nome_procedimento": "CIRURGIA ANTIGLAUCOMATOSA VIA ANGULAR, COM IMPLANTE DE DRENAGEM, POR TÉCNICA MINIMAMENTE INVASIVA",
+        "info_assistente": "PROTOCOLO -  34852020241206928597 /AO LIBERAR ALTERAR PARA QUANTIDADE ( 2 ) CONFORME GUIA / CLIENTE NIP , O MESMO NÃO RECEBEU NENHUMA ORIENTAÇÃO SOBRE REPASSE / AVALIAR - LANCADO CONFORME ORIENTAÇÃO DA GESTÃO - ( CIDAP 10/12/2024 )",
+        "info_medico": "10/12 USUÁRIO REPASSADO À CONGÊNERE AURA SAÚDE (CARTEIRA 00010005000009003). INFORMÁ-LO DO REPASSE E DE PROCURAR A OPERADORA P/ PEDIR AUTORIZAÇÃO DESTE. APÓS, CANCELAR. LESALES.",
+        "medico_solicitante": "MEDICO TRANSCRICAO NDI MINAS"
+    },
+    {
+        "id": 31,
+        "codigo": "0ITXU000002011",
+        "nome": "ELISA EMIKO MORIYA",
+        "codigo_procedimento": "30713137",
+        "nome_procedimento": "PUNCAO ARTICULAR DIAGNOSTICA OU TERAPEUTICA (INFILTRACAO). QUANDO ORIENTADA POR RX, US, TC E RM, COBRAR CODIGO CORRESPONDENTE",
+        "info_assistente": "10/12: CÓDIGO LANÇADO CONF GERÊNCIA**JOYCESN**",
+        "info_medico": "10/12-CONFIRMAR SE A CONSULTA FOI PELO PLANO-GM",
+        "medico_solicitante": "MEDICO TRANSCRICAO NDI MINAS SP"
+    },
+    {
+        "id": 32,
+        "codigo": "0GSEB000614009",
+        "nome": "RUBENS DE FREITAS",
+        "codigo_procedimento": "30902053",
+        "nome_procedimento": "TROCA VALVAR",
+        "info_assistente": "GUIA EM ANEXO.//TEL:// USU EM LINHA DE FRENTE CIENTE DO PRAZO DE ATE 10 DIAS UTEIS PARA A LIBERAÇÃO. OP: DS68574",
+        "info_medico": "10/12-CONFIRMAR SE A CONSULTA FOI PELO PLANO+ANEXAR LAUDO DE CATETERISMO-GM",
+        "medico_solicitante": "MEDICO TRANSCRICAO NDI MINAS AL"
+    },
+    {
+        "id": 33,
+        "codigo": "0GSEB000614009",
+        "nome": "RUBENS DE FREITAS",
+        "codigo_procedimento": "30905036",
+        "nome_procedimento": "INSTALACAO DO CIRCUITO DE CIRCULACAO EXTRACORPOREA CONVENCIONAL",
+        "info_assistente": "GUIA EM ANEXO.//TEL:// USU EM LINHA DE FRENTE CIENTE DO PRAZO DE ATE 10 DIAS UTEIS PARA A LIBERAÇÃO. OP: DS68574",
+        "info_medico": "10/12-CONFIRMAR SE A CONSULTA FOI PELO PLANO+ANEXAR LAUDO DE CATETERISMO-GM",
+        "medico_solicitante": "MEDICO TRANSCRICAO NDI MINAS AL"
+    },
+    {
+        "id": 34,
+        "codigo": "0GSEB000614009",
+        "nome": "RUBENS DE FREITAS",
+        "codigo_procedimento": "30905060",
+        "nome_procedimento": "PERFUSIONISTA",
+        "info_assistente": "GUIA EM ANEXO.//TEL:// USU EM LINHA DE FRENTE CIENTE DO PRAZO DE ATE 10 DIAS UTEIS PARA A LIBERAÇÃO. OP: DS68574",
+        "info_medico": "10/12-CONFIRMAR SE A CONSULTA FOI PELO PLANO+ANEXAR LAUDO DE CATETERISMO-GM",
+        "medico_solicitante": "MEDICO TRANSCRICAO NDI MINAS AL"
+    },
+    {
+        "id": 35,
+        "codigo": "0GSEB000614009",
+        "nome": "RUBENS DE FREITAS",
+        "codigo_procedimento": "30913012",
+        "nome_procedimento": "DISSECCAO DE VEIA PARA COLOCACAO DE CATETER CENTRAL NPP OU QT",
+        "info_assistente": "GUIA EM ANEXO.//TEL:// USU EM LINHA DE FRENTE CIENTE DO PRAZO DE ATE 10 DIAS UTEIS PARA A LIBERAÇÃO. OP: DS68574",
+        "info_medico": "10/12-CONFIRMAR SE A CONSULTA FOI PELO PLANO+ANEXAR LAUDO DE CATETERISMO-GM",
+        "medico_solicitante": "MEDICO TRANSCRICAO NDI MINAS AL"
+    },
+    {
+        "id": 36,
+        "codigo": "3010R019289006",
+        "nome": "JOZIANI DA SILVA",
+        "codigo_procedimento": "40503801",
+        "nome_procedimento": "SEQUENCIAMENTO DE NOVA GERACAO (NGS) - GENES ISOLADOS, PAINEIS E GRANDES REGIOES GENOMICAS (INCLUI CAPTURA, AMPLIFICACAO E SEQUENCIAMENTO)",
+        "info_assistente": "MEDICO TRANSCRIÇÃO NÃO FAZ PARTE DO CORPO CLINICO DA OPERADORA O MESMO SOLICITA UMA REVISÃO NOS GENES DE SPG// NÃO LOCALIZADO PRESTADOR PARA REALIZAR PROCEDIMENTO JK569",
+        "info_medico": "MEDICO TRANSCRIÇÃO NÃO FAZ PARTE DO CORPO CLINICO DA OPERADORA O MESMO SOLICITA UMA REVISÃO NOS GENES DE SPG// NÃO LOCALIZADO PRESTADOR PARA REALIZAR PROCEDIMENTO JK569",
+        "medico_solicitante": "MEDICO TRANSCRICAO NDI MINAS"
+    }
+]
