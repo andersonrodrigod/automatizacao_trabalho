@@ -4,6 +4,8 @@ df = pd.read_json("./dados/dados_coletados.json", encoding="utf-8")
 
 palavra_chave = "PARECER"
 
+
+
 info_medico = df[df["info_medico"].str.contains(palavra_chave, na=False)]
 
 solicitar = []
@@ -17,6 +19,7 @@ if not info_medico.empty:
                 "codigo": row["codigo"],
                 "nome": row["nome"]
             }
+         
 
             valores = list(solicitar_parecer.values())
 
