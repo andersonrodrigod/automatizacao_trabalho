@@ -1,8 +1,4 @@
 
-
-
-
-
 substituicoes = {
     "TC": "TOMOGRAFIA DE",
     "RM": "RESSONÂNCIA DE",
@@ -42,11 +38,9 @@ substituicoes = {
     " -": "",
 }
 
-
 substituicoes_questionamentos = {
     
 }
-
 
 delete_texto = [
     "+ APOS SOLICITAR", "E APOS SOLICITAR", "APOS SOLICITAR", "APOSSOLICITAR", "APOS, SOLICITAR PARECER", "APOS,SOLICITAR", 
@@ -60,8 +54,6 @@ questiona_texto = ["POSSUI", "SE POSSUI", "CHECAR", "CHECAR SE", "VERIFICAR", "V
 questionamento_assistente = ["CHECAR COM RELACIONAMENTO", "AGUARDO PARECER", "SE NÃO, CANCELAR PRÉ-SENHAS", "IMPRIMIR"]
 
 frases_delete = ["CHECAR SE CONSULTA FOI PELO PLANO", "PARTE MEDICA OK", "CANCELAMENTO", "SEM MEDICAMENTOS OU OPME EM GUIA", "MEDICAMENTOS EM GUIA", "AGUARDO PARECER"]
-
-
 
 separacoes = "CONFIRMAR ENDEREÇO"
 
@@ -80,3 +72,15 @@ regras_substituicao = [
     (r"\+ ANEXAR", "E")
     
 ]
+
+posicao = {
+    "codigo_carteira": [
+        {"x": 0, "y": 0}
+    ],
+    "info_meidico" : [
+        {"x": 0, "y": 0}
+    ],
+    "info_assistente": [
+        {"x": 0, "y": 0}
+    ]
+}

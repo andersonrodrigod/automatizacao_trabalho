@@ -1048,5 +1048,15 @@
         "info_assistente": "BENEFICIARIO CIENTE DO PRAZO DE 10 DIA UTEIS , BENEFICARIO ALEGA NAO TER CONDICOES DE PAGAR ESSE COLETE QUE E ULTILIZADO NO PESCOCO POIS SAI EM MEDIA DE 4 MIL REAIS POR MES PREZADO AUDITOR PODERIA VERIFICAR A CODIFICACAO CORRETA E A POSSIBILIDADE DE LIBERACAO A MESMA ENCONTRA-SE INTERNADA //RS13782 -",
         "info_medico": "16/12 - TROCAR PARA 01990047. > NEGATIVA POR EXCLUSAO DE COBERTURA (COLETE TIPO MIAMI). ITM",
         "medico_solicitante": "MEDICO TRANSCRICAO NDI MINAS"
+    },
+    {
+        "id": 106,
+        "codigo": "def coletar_dados(self):",
+        "nome": "def coletar_dados(self):",
+        "codigo_procedimento": "def coletar_dados(self):",
+        "nome_procedimento": "def coletar_dados(self):",
+        "info_assistente": "def coletar_dados(self):",
+        "info_medico": "def coletar_dados(self):",
+        "medico_solicitante": "def coletar_dados(self):"
     }
 ]

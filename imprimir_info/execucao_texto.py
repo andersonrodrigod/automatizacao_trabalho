@@ -1,8 +1,7 @@
 from collections import OrderedDict
-from data_processo import processar_data, remover_datas
-from filtrar import filtrar_nome
+from loader import filtrar_nome
 from palavras import substituicoes, regras_substituicao, delete_texto, questiona_texto, separacoes, telegrama, frases_delete
-from processar_texto import substituir_texto, remover_caracteres, deletar_texto, separar_questionamento, seperar_textos, confirma_endereco, verificar_textos, enviar_telegrama, deletar_info_medico, deletar_frases, texto_procedimento, texto_observação, texto_plano, texto_nome
+from processar_texto import substituir_texto, remover_caracteres, deletar_texto, separar_questionamento, seperar_textos, confirma_endereco, verificar_textos, enviar_telegrama, deletar_info_medico, deletar_frases, texto_procedimento, texto_observação, texto_plano, texto_nome, processar_data, remover_datas
 
 
 
@@ -11,14 +10,14 @@ def processar_dados_por_nome(df, nome):
 
     if bf.empty:
 
-        return OrderedDict ([
-            ("nome", None),
-            ("mensagem", f"O nome '{nome}' não foi encontrado no banco de dados."),
-            ("procedimento", None),
-            ("solicitacoes", None),
-            ("observacao", None),
-            ("consulta_plano", None)
-        ])
+        return {
+            "nome": None,
+            "mensagem": f"O nome '{nome}' não foi encontrado no banco de dados.",
+            "procedimento": None,
+            "solicitacoes": None,
+            "observacao": None,
+            "consulta_plano": None
+        }    
     
     nome = texto_nome(nome)
     info_medico = bf["info_medico"].iloc[0]
@@ -40,14 +39,12 @@ def processar_dados_por_nome(df, nome):
     solicitacoes = verificar_textos(texto_editado, questionamento, endereco)
     procedimento = texto_procedimento(nome_procedimento)
         
-    return OrderedDict([
-        ("nome", nome),
-        ("procedimento", procedimento),
-        ("solicitacoes", solicitacoes),
-        ("observacao", observacao),
-        ("consulta_plano", consulta_plano)
-    ])
+    return {
+        "nome": nome,
+        "procedimento": procedimento,
+        "solicitacoes": solicitacoes,
+        "observacao": observacao,
+        "consulta_plano": consulta_plano
+    }
     
-
-
 
